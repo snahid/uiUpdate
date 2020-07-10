@@ -1,0 +1,345 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700,700i&display=swap");
+.header-menu {
+  box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+  background: #138496; }
+  .header-menu .container .main-nav .navbar a.navbar-brand {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    color: #f1f1f1;
+    font-weight: 700;
+    font-size: 30px; }
+    .header-menu .container .main-nav .navbar a.navbar-brand span {
+      font-style: italic;
+      text-transform: lowercase; }
+  .header-menu .container .main-nav .navbar .collapse .navbar-nav li .nav-link,
+  .header-menu .container .main-nav .navbar .collapsing .navbar-nav li .nav-link {
+    color: #f1f1f1;
+    font-family: "Roboto", sans-serif;
+    transition: all 0.5s ease;
+    position: relative;
+    text-transform: capitalize; }
+    .header-menu .container .main-nav .navbar .collapse .navbar-nav li .nav-link:before,
+    .header-menu .container .main-nav .navbar .collapsing .navbar-nav li .nav-link:before {
+      content: '';
+      position: absolute;
+      width: 100%;
+      background: #ffffff;
+      left: 0;
+      bottom: 0;
+      height: 2px;
+      transform: scaleX(0);
+      transform-origin: left;
+      z-index: -1;
+      transition: 0.5s ease; }
+    .header-menu .container .main-nav .navbar .collapse .navbar-nav li .nav-link:hover:before,
+    .header-menu .container .main-nav .navbar .collapsing .navbar-nav li .nav-link:hover:before {
+      color: #ffffff;
+      transform: scaleX(1);
+      z-index: 1; }
+
+.navbar-fixed {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: -1px;
+  background: #138496;
+  box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+  z-index: 999;
+  transition: background 0.5s ease; }
+
+.middle .container .left {
+  padding: 10px; }
+
+.middle .container .left-top-image {
+  margin-top: 40px;
+  margin-bottom: 10px; }
+  @media (max-width: 767px) {
+    .middle .container .left-top-image img {
+      width: 100%; } }
+
+.middle .container .left-add {
+  margin: 15px 0px; }
+
+.middle .container .affecting-corona {
+  margin-bottom: 20px; }
+  .middle .container .affecting-corona a {
+    color: white;
+    text-decoration: none; }
+    .middle .container .affecting-corona a .affecting-corona-inner {
+      background: #656EDB;
+      padding: 15px 0px;
+      border-radius: 5px; }
+      .middle .container .affecting-corona a .affecting-corona-inner i {
+        transform: rotateY(-180deg);
+        font-size: 40px;
+        margin-bottom: 10px; }
+      @media (max-width: 991px) {
+        .middle .container .affecting-corona a .affecting-corona-inner h5 {
+          font-size: 16px; } }
+
+.middle .container .wifi-news .wifi-news-inner a {
+  color: white;
+  text-decoration: none; }
+  .middle .container .wifi-news .wifi-news-inner a .wifi-inner {
+    background: #2FA89D;
+    padding: 15px 0px;
+    border-radius: 5px; }
+    .middle .container .wifi-news .wifi-news-inner a .wifi-inner i {
+      font-size: 40px;
+      margin-bottom: 10px; }
+    @media (max-width: 991px) {
+      .middle .container .wifi-news .wifi-news-inner a .wifi-inner h5 {
+        font-size: 16px; } }
+
+.middle .container .visit-information {
+  margin-top: 10px;
+  text-align: justify;
+  background: #A41A1A;
+  padding: 5px 15px;
+  color: white; }
+  @media (max-width: 991px) {
+    .middle .container .visit-information {
+      text-align: initial; } }
+  .middle .container .visit-information h5 {
+    font-size: 16px;
+    margin-bottom: 0px; }
+    .middle .container .visit-information h5 a {
+      text-decoration: underline; }
+
+.middle .container .right {
+  margin-top: 40px; }
+  .middle .container .right .about-news {
+    margin-bottom: 40px; }
+    .middle .container .right .about-news h2 {
+      color: #191919;
+      margin-bottom: 20px; }
+    .middle .container .right .about-news p {
+      color: #464646;
+      font-weight: 500;
+      line-height: 22px;
+      text-align: justify;
+      font-size: 14px; }
+  .middle .container .right .news-articles h3 {
+    text-align: center;
+    font-weight: bold;
+    color: #666666;
+    margin-bottom: 20px; }
+  .middle .container .right .news-articles ul {
+    padding-left: 20px; }
+    .middle .container .right .news-articles ul li a {
+      font-size: 14px;
+      text-transform: capitalize; }
+
+.article {
+  margin-top: 40px; }
+  .article .container h1 {
+    text-align: center;
+    text-transform: capitalize; }
+    @media (max-width: 1024px) {
+      .article .container h1 {
+        font-size: 22px; } }
+  .article .container .row .myarticle {
+    margin-top: 40px;
+    overflow: hidden; }
+    .article .container .row .myarticle a {
+      overflow: hidden; }
+      .article .container .row .myarticle a .overflow {
+        overflow: hidden; }
+        .article .container .row .myarticle a .overflow img {
+          width: 100%;
+          transition: all 1s ease;
+          overflow: hidden; }
+          .article .container .row .myarticle a .overflow img:hover {
+            transform: scale(1.3); }
+      .article .container .row .myarticle a img {
+        width: 100%;
+        transition: all 1s ease;
+        overflow: hidden; }
+        .article .container .row .myarticle a img:hover {
+          transform: scale(1.3); }
+      .article .container .row .myarticle a h5 {
+        text-transform: capitalize;
+        color: #191919; }
+        @media (max-width: 1024px) {
+          .article .container .row .myarticle a h5 {
+            font-size: 16px; } }
+
+.myfooter {
+  background: #138496;
+  color: #F8F6F6;
+  padding: 10px 0px; }
+  .myfooter p {
+    color: #a8a8a8;
+    margin-bottom: 0;
+    font-size: 14px; }
+    @media (max-width: 414px) {
+      .myfooter p {
+        font-size: 14px; } }
+  .myfooter a {
+    color: #f5f5f5; }
+    .myfooter a:hover {
+      color: #ffffff; }
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Roboto", sans-serif;
+  background: #FFFFFF; }
+
+.article-middle .container .row .col-md-8 .article-left {
+  margin-top: 40px; }
+  .article-middle .container .row .col-md-8 .article-left h3 {
+    margin-bottom: 25px;
+    color: #191919;
+    text-transform: capitalize; }
+  .article-middle .container .row .col-md-8 .article-left .myborder {
+    width: 100%;
+    height: 2px;
+    background: #191919;
+    margin-bottom: 20px; }
+  .article-middle .container .row .col-md-8 .article-left img {
+    width: 100%;
+    margin-bottom: 30px;
+    border: 1px solid #666666;
+    padding: 5px;
+    background: #e5e5e5; }
+  .article-middle .container .row .col-md-8 .article-left h5 {
+    color: #666666; }
+  .article-middle .container .row .col-md-8 .article-left p {
+    color: #666666;
+    text-align: justify;
+    font-size: 14px; }
+  .article-middle .container .row .col-md-8 .article-left ul li {
+    color: #666666; }
+
+.article-middle .container .row .col-md-4 .article-right {
+  margin-top: 40px; }
+  .article-middle .container .row .col-md-4 .article-right .about-news {
+    margin-bottom: 40px; }
+    .article-middle .container .row .col-md-4 .article-right .about-news h2 {
+      color: #191919;
+      margin-bottom: 20px; }
+    .article-middle .container .row .col-md-4 .article-right .about-news p {
+      color: #464646;
+      font-weight: 500;
+      line-height: 22px;
+      text-align: justify; }
+  .article-middle .container .row .col-md-4 .article-right .news-articles h3 {
+    text-align: center;
+    font-weight: bold;
+    color: #666666;
+    margin-bottom: 20px; }
+  .article-middle .container .row .col-md-4 .article-right .news-articles ul li a {
+    font-size: 14px;
+    text-transform: capitalize; }
+
+.privacy {
+  margin-top: 40px; }
+  .privacy .container .row .col-md-12 .privacy-inner h2 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #191919; }
+    @media (max-width: 1024px) {
+      .privacy .container .row .col-md-12 .privacy-inner h2 {
+        font-size: 22px; } }
+  .privacy .container .row .col-md-12 .privacy-inner h5 {
+    color: #666666; }
+    @media (max-width: 1024px) {
+      .privacy .container .row .col-md-12 .privacy-inner h5 {
+        font-size: 16px; } }
+  .privacy .container .row .col-md-12 .privacy-inner p {
+    color: #666666;
+    text-align: justify;
+    font-size: 14px; }
+
+.discussion {
+  margin-top: 40px; }
+  .discussion .container h2 {
+    text-align: center;
+    color: #191919;
+    text-transform: uppercase; }
+    @media (max-width: 1024px) {
+      .discussion .container h2 {
+        font-size: 22px; } }
+    @media (max-width: 421px) {
+      .discussion .container h2 {
+        font-size: 20px; } }
+  .discussion .container .row .col-md-12 .discussion-inner-left {
+    width: 80%;
+    margin: 50px auto; }
+    @media (max-width: 991px) {
+      .discussion .container .row .col-md-12 .discussion-inner-left {
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 50px; } }
+    .discussion .container .row .col-md-12 .discussion-inner-left form .form-group {
+      color: #666666; }
+      .discussion .container .row .col-md-12 .discussion-inner-left form .form-group label {
+        font-weight: 500; }
+    .discussion .container .row .col-md-12 .discussion-inner-left form .mysubmit-btn {
+      text-transform: uppercase; }
+    .discussion .container .row .col-md-12 .discussion-inner-left .comment-title {
+      margin-top: 40px;
+      margin-bottom: 40px; }
+      .discussion .container .row .col-md-12 .discussion-inner-left .comment-title h4 {
+        text-align: center;
+        text-transform: uppercase;
+        color: #666666;
+        font-weight: bold; }
+        @media (max-width: 1024px) {
+          .discussion .container .row .col-md-12 .discussion-inner-left .comment-title h4 {
+            font-size: 20px; } }
+    .discussion .container .row .col-md-12 .discussion-inner-left .comment {
+      background: #f5f5f5;
+      overflow: auto;
+      padding: 9px;
+      border-radius: 3px;
+      border: 1px solid #e3e3e3;
+      margin: 20px 0px; }
+      .discussion .container .row .col-md-12 .discussion-inner-left .comment .comment-top {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; }
+        .discussion .container .row .col-md-12 .discussion-inner-left .comment .comment-top .comment-name {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around; }
+          .discussion .container .row .col-md-12 .discussion-inner-left .comment .comment-top .comment-name .comment-icon {
+            margin-right: 5px; }
+            .discussion .container .row .col-md-12 .discussion-inner-left .comment .comment-top .comment-name .comment-icon i {
+              font-size: 20px; }
+              @media (max-width: 500px) {
+                .discussion .container .row .col-md-12 .discussion-inner-left .comment .comment-top .comment-name .comment-icon i {
+                  font-size: 18px; } }
+          .discussion .container .row .col-md-12 .discussion-inner-left .comment .comment-top .comment-name .comment-user-name h5 {
+            text-transform: uppercase;
+            color: #2A649C;
+            font-size: 18px;
+            margin-bottom: 0; }
+            @media (max-width: 500px) {
+              .discussion .container .row .col-md-12 .discussion-inner-left .comment .comment-top .comment-name .comment-user-name h5 {
+                font-size: 16px; } }
+        .discussion .container .row .col-md-12 .discussion-inner-left .comment .comment-top .comment-time {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around; }
+          .discussion .container .row .col-md-12 .discussion-inner-left .comment .comment-top .comment-time .comment-date {
+            margin-right: 5px; }
+            .discussion .container .row .col-md-12 .discussion-inner-left .comment .comment-top .comment-time .comment-date h6 {
+              color: #666666;
+              font-size: 14px; }
+          .discussion .container .row .col-md-12 .discussion-inner-left .comment .comment-top .comment-time .comment-timee h6 {
+            color: #666666;
+            font-size: 14px; }
+      .discussion .container .row .col-md-12 .discussion-inner-left .comment .comment-description {
+        margin-top: 10px; }
+        .discussion .container .row .col-md-12 .discussion-inner-left .comment .comment-description p {
+          color: #666666;
+          font-size: 14px; }

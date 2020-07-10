@@ -1,0 +1,309 @@
+.header-menu {
+    box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+    background: #138496;
+
+    .container {
+        .main-nav {
+            .navbar {
+                a.navbar-brand {
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    font-family: $Roboto-font;
+                    color: #f1f1f1;
+                    font-weight: 700;
+                    font-size: 30px;
+
+                    span {
+                        font-style: italic;
+                        text-transform: lowercase;
+                    }
+                }
+
+                .collapse,
+                .collapsing {
+                    .navbar-nav {
+                        li {
+                            .nav-link {
+                                color: #f1f1f1;
+                                font-family: $Roboto-font;
+                                transition: all 0.5s ease;
+                                position: relative;
+                                // 
+                                text-transform: capitalize;
+
+                                &:before {
+                                    content: '';
+                                    position: absolute;
+                                    width: 100%;
+                                    background: #ffffff;
+                                    left: 0;
+                                    bottom: 0;
+                                    height: 2px;
+                                    transform: scaleX(0);
+                                    transform-origin: left;
+                                    z-index: -1;
+                                    transition: 0.5s ease;
+                                }
+
+                                &:hover:before {
+                                    color: #ffffff;
+                                    transform: scaleX(1);
+                                    z-index: 1;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.navbar-fixed {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: -1px;
+    background: #138496;
+    box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+    z-index: 999;
+    transition: background 0.5s ease;
+}
+
+
+
+// middle
+.middle {
+    .container {
+        .left {
+            padding: 10px;
+        }
+
+        .left-top-image {
+            margin-top: 40px;
+            margin-bottom: 10px;
+
+            img {
+                @media(max-width: 767px) {
+                    width: 100%;
+                }
+            }
+        }
+
+        .left-add {
+            margin: 15px 0px;
+        }
+
+        .affecting-corona {
+            margin-bottom: 20px;
+
+            a {
+                color: white;
+                text-decoration: none;
+
+                .affecting-corona-inner {
+                    background: #656EDB;
+                    padding: 15px 0px;
+                    border-radius: 5px;
+
+                    i {
+                        transform: rotateY(-180deg);
+                        font-size: 40px;
+                        margin-bottom: 10px;
+                    }
+
+                    h5 {
+                        @media(max-width: 991px) {
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .wifi-news {
+            .wifi-news-inner {
+                a {
+                    color: white;
+                    text-decoration: none;
+
+                    .wifi-inner {
+                        background: #2FA89D;
+                        padding: 15px 0px;
+                        border-radius: 5px;
+
+                        i {
+                            font-size: 40px;
+                            margin-bottom: 10px;
+                        }
+
+                        h5 {
+                            @media(max-width: 991px) {
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .visit-information {
+            margin-top: 10px;
+            text-align: justify;
+            background: #A41A1A;
+            padding: 5px 15px;
+            color: white;
+
+            @media(max-width: 991px) {
+                text-align: initial;
+            }
+
+            h5 {
+                font-size: 16px;
+                margin-bottom: 0px;
+
+                a {
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        .right {
+            margin-top: 40px;
+
+            .about-news {
+                margin-bottom: 40px;
+
+                h2 {
+                    color: #191919;
+                    margin-bottom: 20px;
+                }
+
+                p {
+                    color: #464646;
+                    font-weight: 500;
+                    line-height: 22px;
+                    text-align: justify;
+                    font-size: 14px;
+                }
+            }
+
+            .news-articles {
+                h3 {
+                    text-align: center;
+                    font-weight: bold;
+                    color: #666666;
+                    margin-bottom: 20px;
+                }
+
+                ul {
+                    padding-left: 20px;
+
+                    li {
+                        a {
+                            font-size: 14px;
+                            text-transform: capitalize;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//middle
+
+
+
+
+//article
+
+.article {
+    margin-top: 40px;
+
+    .container {
+        h1 {
+            text-align: center;
+            text-transform: capitalize;
+
+            @media(max-width: 1024px){
+                font-size: 22px;
+            }
+        }
+
+        .row {
+            .myarticle {
+                margin-top: 40px;
+                overflow: hidden;
+
+                a {
+
+                    .overflow {
+                        overflow: hidden;
+
+                        img {
+                            width: 100%;
+                            transition: all 1s ease;
+                            overflow: hidden;
+
+                            &:hover {
+                                transform: scale(1.3);
+                            }
+                        }
+                    }
+
+                    overflow: hidden;
+
+                    img {
+                        width: 100%;
+                        transition: all 1s ease;
+                        overflow: hidden;
+
+                        &:hover {
+                            transform: scale(1.3);
+                        }
+                    }
+
+                    h5 {
+                        text-transform: capitalize;
+                        color: #191919;
+                        @media(max-width: 1024px){
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//article
+
+
+// footer 
+.myfooter {
+    background: #138496;
+    color: #F8F6F6;
+    padding: 10px 0px;
+
+    p {
+        color: #a8a8a8;
+        margin-bottom: 0;
+        font-size: 14px;
+
+        @media(max-width: 414px) {
+            font-size: 14px;
+        }
+    }
+
+    a {
+        color: #f5f5f5;
+
+        &:hover {
+            color: #ffffff;
+        }
+    }
+}
+
+// footer 
